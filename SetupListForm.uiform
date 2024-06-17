@@ -1,0 +1,33 @@
+﻿{
+  "Metadata": {
+    "Id": "790add0d-5231-4856-bbeb-8308db2fa9d0",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "SetupListForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Elements Amount",
+        "placeholder": "Enter amount of elements in the list",
+        "tableView": true,
+        "key": "elementsAmount",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}

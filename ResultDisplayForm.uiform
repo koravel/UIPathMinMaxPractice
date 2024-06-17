@@ -1,0 +1,48 @@
+﻿{
+  "Metadata": {
+    "Id": "8a41cc26-188f-466a-8c1e-7878e4881fed",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "ResultDisplayForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "List Elements",
+        "tableView": true,
+        "key": "listElements",
+        "type": "textarea",
+        "input": true
+      },
+      {
+        "label": "Min Element",
+        "tableView": true,
+        "key": "minElement",
+        "type": "textarea",
+        "input": true
+      },
+      {
+        "label": "Max Element",
+        "tableView": true,
+        "key": "maxElement",
+        "type": "textarea",
+        "input": true
+      },
+      {
+        "label": "Ok",
+        "showValidations": false,
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "input": true,
+        "saveOnEnter": false
+      }
+    ]
+  }
+}
